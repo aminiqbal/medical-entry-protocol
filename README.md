@@ -1,2 +1,1 @@
-# medical-entry-protocol
-Medical records entry, maintenance, organization and archiving utility.
+<img src=https://github.com/aminiqbal/medical-entry-protocol/blob/main/mepoverview.png/>
