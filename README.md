@@ -1,4 +1,4 @@
-# Medical Entry Protocol (MEP) --UNDER CONSTRUCTION--
+# Medical Entry Protocol (MEP) [UNDER CONSTRUCTION]
 
 
 ## About
@@ -22,14 +22,15 @@ Medical Entry Protocol (MEP) is an abstract definition of architecture for data 
 
 This has to be sorted out carefully.
 For now, the project plans to use these utilities:
-0. OpenJDK (Java 18.0.2)
-1. Tesseract OCR (Optical character recognition)
-2. FreeTTS (Text-to-speech & speech-to-text capabilities)
-3. CMU-Sphinx (Text-to-speech & speech-to-text capabilities)
-4. PDFBox (Document formatting, generation & management)
-5. Derby (Relational database interfacing)
+
+1. OpenJDK (Java 18.0.2)
+2. Tesseract OCR (Optical character recognition)
+3. FreeTTS (Text-to-speech & speech-to-text capabilities)
+4. CMU-Sphinx (Text-to-speech & speech-to-text capabilities)
+5. PDFBox (Document formatting, generation & management)
+6. Derby (Relational database interfacing)
 
 ## Current issues in MEP __Client GUI Program__ (Not the actual data format)
 
 * Utilities that were chosen to implement text-to-speech & speech-to-text capabilities might pose compatibility issues with Java 18.
-  * I wish to avoid too many JNI calls - the more Java, the more portability. The JVM provides some degree of independence. If this is not possible, then it would be more convenient to implement these capabilities in C++ or plain C.
+  * It would be best to avoid too many JNI calls - the more pure Java, the more portability. The JVM provides some degree of independence. If this is not possible to maintain, then it would be more convenient to implement these capabilities in C++ or plain C.
